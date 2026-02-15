@@ -1,0 +1,29 @@
+# Data Collection
+scrapy>=2.11.0
+scrapy-playwright>=0.0.33
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Training (will be installed on EC2, but good to have listed)
+torch>=2.1.0
+transformers>=4.36.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+accelerate>=0.25.0
+datasets>=2.16.0
+scipy
+safetensors
+
+# Deployment
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+llama-cpp-python>=0.2.26
+
+# Utils
+python-dotenv>=1.0.0
